@@ -4,20 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My website</title>
+   
 
-    <style>
-     table,tr,td,th{
-     border: 2px solid black;
-     border-collapse: collapse;
-        }
-        td{
-            text-align: center;
-            width: 80px;
-            height: 20px;
-
-        }
-    </style>
 </head>
 <body>
     <h1>Hello world</h1>
@@ -106,5 +96,86 @@
         <tr><td>Rahul</td><td>Kumar</td><td>full stack</td></tr>
     </table>
 
+    <form action="">
+        <h1>required form following by:</h1>
+        <label for="name">First Name:</label>
+        <input type="name" id="name"><br><br>
+
+        <label for="name">Last Name:</label>
+        <input type="name" id="name"><br><br>
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="number">Mobile Number:</label>
+        <input type="number" id="number"><br><br>
+
+        <h4>Gender:</h4>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female"><br><br>
+
+        <label for="date">Date of Birth(D.O.B):</label>
+        <input type="Date" id="date"><br><br>
+
+        <label for="address">Address:</label>
+        <input type="address" id="address"><br><br>
+
+        <label for="city">City:</label>
+        <input type="city"  id="city"><br><br>
+
+        <label for="pincode">Pincode:</label>
+        <input type="pincode" id="pincode"><br><br>
+
+        <label for="state">State:</label>
+        <input type="state" id="state"><br><br>
+
+        <label for="country">Country:</label>
+        <input type="country" id="country"><br><br>
+
+        <h4>Hobbies:</h4>
+        <label for="dancing">Dancing</label>
+        <input type="checkbox" id="dancing">
+
+        <label for="drawing">Drawing</label>
+        <input type="checkbox" id="drawing">
+
+        <label for="singing">Singing</label>
+        <input type="checkbox" id="singing">
+
+        <label for="sketching">Sketching</label>
+        <input type="checkbox" id="sketching">
+
+        <label for="other">Other</label>
+        <input type="checkbox" id="other"><br><br>
+
+        <h4>Year:</h4>
+        <label for="year">First Year</label>
+        <input type="radio" id="year" name="year"><br>
+
+        <label for="year">Second Year</label>
+        <input type="radio" id="year" name="year"><br>
+
+        <label for="year">Third Year</label>
+        <input type="radio" name="year" id="year"><br>
+
+        <label for="year">Fourth Year</label>
+        <input type="radio" name="year" id="year"><br><br>
+
+        <h4>Branch:</h4>
+        <select>
+            <option>select one</option>
+            <option>CSE</option>
+            <option>AIE</option>
+            <option>MEE</option>
+            <option>CEE</option>
+        </select><br><br>
+
+
+        <input type="Reset" value="Reset">
+        <input type="submit"  value="submit now">
+    </form>
 </body>
 </html>
