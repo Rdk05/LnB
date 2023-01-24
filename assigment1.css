@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(186, 245, 143);
+    color: rgb(139, 101, 71);
+    font: small arial,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background-color: rgb(142, 227, 72);
+    margin-bottom: 2em;
+}
+
+#logo{
+    display: block;
+    margin: 0 1em 0.5em;
+    background:url(curl.gif) 100% 100% no-repeat;
+    padding: 2em 0 1em 1em;
+}
+
+#navlinks{
+    margin: 0;
+    padding: 0.5em 0 0.5em 1em;
+    background: rgb(121, 135,147);
+    color: white;
+}
+
+#navlinks a{
+    color: rgb(133, 207,73);
+}
+
+#navlinks li{
+    display: inline;
+    font-weight: bold;
+    margin-right: 1em;
+    padding-right: 0.5em;
+    border-right: 1px solid rgb(116, 210,119);
+}
+
+#date{
+    color: white;
+    text-align: right;
+    padding-right: 1em;
+    font-weight: bold;
+    margin-top:-1.7em;
+}
+
+#content{
+    width: 80%;
+    float: left;
+    padding: 0 0em 1em;
+    margin-right: 1em;
+    margin: 0;
+
+}
+#content h1{
+    background-color: white;
+    color: rgb(121, 135,147);
+    padding: 0.4em;
+    margin: 0;
+}
+#content b{
+    color: green;
+}
+
+#content h2{
+    border-bottom: 1px solid green;
+    padding-bottom: 0.5em;
+}
+#content img.pot{
+    float: left;
+    margin: 1em;
+}
+#right content{
+    float: left;
+    width: 18%;
+
+}
+#search{
+    margin: 0;
+    text-align: center;
+    padding:4em;
+}
+#right content form .text{
+ width: 10em;
+}
+
+right content form, #right content h3{
+    background-color: rgb(154, 179, 202);
+    padding: 0.5em;
+}
+
+#tod{
+    background-color: #5b5d4e;
+    color: white;
+    padding-bottom: 1em;
+}
+
+#tod h4, #tod p{
+    padding-left: 1em;
+}
+
+#tod img{
+    display: block;
+    margin: 0 auto;
+}
+
+#archive{
+    background-color: #5b5d4e;
+    color: white;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+}
+
+#archive table{
+    margin: 0 auto;
+    font-size: smaller;
+}
+
+#archive td{
+    border: 1px solid white;
+    background-color: #a5a69e;
+    color: black;
+}
+
+#archive table a{
+    font-weight: bold;
+    color: white;
+}
+#foot{
+    clear: both;
+    padding: 0.5em 1em;
+    background-color: rgb(116, 210, 119);
+}
+#foot p{
+    margin: 0;
+}
